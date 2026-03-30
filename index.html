@@ -580,7 +580,7 @@
                                         <div class="text-sm overflowClip_1">
                                             <strong>LibreTV</strong>
                                         </div>
-                                        <p class="overflowClip_1 m-0 text-muted text-xs">Gmail</p>
+                                        <p class="overflowClip_1 m-0 text-muted text-xs">LibreTV</p>
                                     </div>
                                 </div>
                             </div>
@@ -4652,53 +4652,38 @@
                         </a>
                     </div>
                 </div>
-
             </div>
-            <br />
-
-
-
-
-
-    <h4 class="text-gray text-lg mb-4">
-        <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
-    </h4>
-    <div class="friendlink text-xs card">
-        <div class="card-body">
-
-	    <a href="https://csdn.net" title="程序员社区" target="_blank">CSDN</a>
-
-	    <a href="https://gitapp.cn/" title="程序设计网" target="_blank">程序设计网</a>
-
-	    <a href="https://juejin.im" title="掘金社区" target="_blank">掘金社区</a>
-
-	    <a href="https://aliyun.com" title="阿里云社区" target="_blank">阿里云社区</a>
-
+            <br/>
+            
+        <!--
+        <h4 class="text-gray text-lg mb-4">
+            <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
+        </h4>
+        <div class="friendlink text-xs card">
+            <div class="card-body">
+        	    <a href="https://csdn.net" title="程序员社区" target="_blank">CSDN</a>
+        	    <a href="https://gitapp.cn/" title="程序设计网" target="_blank">程序设计网</a>
+        	    <a href="https://juejin.im" title="掘金社区" target="_blank">掘金社区</a>
+        	    <a href="https://aliyun.com" title="阿里云社区" target="_blank">阿里云社区</a>
+            </div>
         </div>
-    </div>
+        -->
 </div>
-
 
         <footer class="main-footer footer-type-1 text-xs">
             <div id="footer-tools" class="d-flex flex-column">
                 <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
                     <i class="iconfont icon-to-up"></i>
                 </a>
-
-                <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1"
-                    rel="search" one-link-mark="yes">
+                <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1" rel="search" one-link-mark="yes">
                     <i class="iconfont icon-search"></i>
                 </a>
-
-
-		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="日间模式">
+		        <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian" data-toggle="tooltip" data-placement="left" title="日间模式">
                     <i class="mode-ico iconfont icon-night"></i>
                 </a>
-
             </div>
             <div class="footer-inner">
-                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：kefu308@gmail.com <br/>© 2021 - 2023 By <a href="https://github.com/geeeeeeeek/web_tool">Web_tool</a> | <a href="http://beian.miit.gov.cn/">京ICP备2023018588号</a><br/></div>
+                <div class="footer-text">© 2026 By <a href="https://github.com/geeeeeeeek/web_tool">Web_tool</a><br/></div>
             </div>
         </footer>
     </div>
@@ -4867,7 +4852,7 @@
 <script type='text/javascript' id='popper-js-extra'>
 
 
-var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-grey-mode","isCustomize":"1","icourl":"","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"0","lazyload":"1","minNav":"1","loading":"1","hotWords":"baidu","classColumns":" col-sm-6 col-md-4 col-xl-5a col-xxl-6a ","apikey":"TWpBeU1UVTNOekk1TWpVMEIvZ1M2bFVIQllUMmxsV1dZelkxQTVPVzB3UW04eldGQmxhM3BNWW14bVNtWk4="};
+var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-black-mode","isCustomize":"1","icourl":"","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"0","lazyload":"1","minNav":"1","loading":"1","hotWords":"baidu","classColumns":" col-sm-6 col-md-4 col-xl-5a col-xxl-6a ","apikey":"TWpBeU1UVTNOekk1TWpVMEIvZ1M2bFVIQllUMmxsV1dZelkxQTVPVzB3UW04eldGQmxhM3BNWW14bVNtWk4="};
 
 </script>
 <script type='text/javascript' src='./assets/js/popper.min.js' id='popper-js'></script>
@@ -4934,7 +4919,6 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
 </script>
 
 <script>
-
 (function(){
     if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
         if(new Date().getHours() > 22 || new Date().getHours() < 6){
@@ -4966,7 +4950,7 @@ function switchNightMode(){
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
         console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","日间模式");
+        $(".switch-dark-mode").attr("data-original-title","Light Mode");
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
@@ -4975,7 +4959,7 @@ function switchNightMode(){
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
         console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","夜间模式");
+        $(".switch-dark-mode").attr("data-original-title","Dark Mode");
         $(".mode-ico").removeClass("icon-light");
         $(".mode-ico").addClass("icon-night");
     }
